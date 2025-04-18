@@ -15,7 +15,7 @@ This project demonstrates a **bare-metal embedded C** implementation on the **ST
 
 - **External Interrupt (EXTI13)**:  
   - Triggered on the falling edge of the button press.
-  - Cycles LED blink speed between Fast (250ms), Medium (500ms), and Slow (1000ms).
+  - Cycles LED blink speed between Fast (~250ms), Medium (~500ms), and Slow (~1000ms).
 
 - **Speed Control Logic**:  
   - Controlled via a global `speed` variable and dynamic reload of the SysTick timer.
