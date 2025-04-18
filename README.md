@@ -39,10 +39,10 @@ This project demonstrates a **bare-metal embedded C** implementation on the **ST
 1. Flash the code to your STM32F446RE board using STM32CubeIDE or `st-flash`.
 2. Press the button (PC13) to change the LED blink speed.
 3. Observe LED on PA5 toggling at different rates:
-   - Press 1: Fast (250ms)
-   - Press 2: Medium (500ms)
-   - Press 3: Slow (1000ms)
-   - Press 4: Cycles back to Fast
+   - Initial Speed: Fast (~250ms) 
+   - Speed 1: Fast (~250ms)
+   - Speed 2: Medium ~(500ms)
+   - speed 3: Slow (~1000ms)
 
 ## Skills Demonstrated
 - Bare-metal register configuration
