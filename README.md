@@ -35,7 +35,7 @@ This project demonstrates a **bare-metal embedded C** implementation on the **ST
 - Compiled using `arm-none-eabi-gcc` (can be ported to VS Code + Makefile setup)  
 - No use of HAL or CMSIS libraries — 100% register-level programming
 
-## How to Run
+## How to Run main.c (Core/Src/main.c)
 1. Flash the code to your STM32F446RE board using STM32CubeIDE or `st-flash`.
 2. Press the button (PC13) to change the LED blink speed.
 3. Observe LED on PA5 toggling at different rates:
